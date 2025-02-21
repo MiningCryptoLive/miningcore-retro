@@ -13,6 +13,12 @@
         "banOnJunkReceive": true,
         "banOnInvalidShares": false
     },
+     "statistics": {
+"updateInterval": 15, //default 120
+"hashrateCalculationWindow": 10,
+"gcInterval": 1,
+"cleanupDays": 720
+},
     "notifications": {
         "enabled": false,
         "email": {
